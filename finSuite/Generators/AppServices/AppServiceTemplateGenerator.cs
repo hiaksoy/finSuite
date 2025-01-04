@@ -214,7 +214,7 @@ namespace finSuite.Generators.AppServices
             sb.AppendLine("using System;");
             sb.AppendLine("using System.Collections.Generic;");
             sb.AppendLine("using System.Threading.Tasks;");
-            sb.AppendLine("using Volo.Abpi;");
+            sb.AppendLine("using Volo.Abp;");
             sb.AppendLine("using Volo.Abp.Application.Dtos;");
             sb.AppendLine();
             sb.AppendLine($"namespace {classDatas.NamespaceName}");
